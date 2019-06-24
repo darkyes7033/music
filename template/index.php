@@ -127,11 +127,7 @@ if (!defined('MC_CORE')) {
                     <div id="j-show" class="am-margin-vertical">
                         <div id="j-player" class="aplayer"></div>
                     </div>
-                </form>
-            </div>
-        </div>
-        <div class="am-popup" id="copr-info">
-            <div class="am-popup-inner">
+				</form>
                 <div class="am-popup-bd">
                     <p>本站音频文件来自各网站接口，本站不会修改任何音频文件</p>
                     <p>音频版权来自各网站，本站只提供数据查询服务，不提供任何音频存储和贩卖服务</p>
@@ -140,10 +136,6 @@ if (!defined('MC_CORE')) {
 					<p>站长</p>
 					<p>DarksunFly</p>
                 </div>
-                <div class="am-popup-hd">
-                    <h4 class="am-popup-title">免责声明</h4>
-                    <span data-am-modal-close class="am-close">&times;</span>
-                </div>				
             </div>
         </div>
     </section>
