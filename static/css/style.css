@@ -1,12 +1,3 @@
-/**
- *
- * 音乐搜索器 - CSS 文件
- *
- * @author  MaiCong <i@maicong.me>
- * @link    https://github.com/maicong/music
- * @since   1.5.4
- *
- */
 
 html {
   font-family: -apple-system, BlinkMacSystemFont, 'San Francisco', 'Microsoft YaHei', 'PingFang SC',
@@ -28,6 +19,9 @@ a {
   transition: all .3s;
 }
 .about {
+	
+  background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561398623761&di=08f1dbe640d998cd26885e16e31fb0d6&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F14%2F82%2F01%2F95y58PICKbG_1024.jpg);
+  -moz-background-size:100% 100%; background-size:100% 100%;
   background: #fff;
   color: #7f8c8d;
 }

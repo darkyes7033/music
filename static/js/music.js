@@ -1,14 +1,5 @@
 'use strict';
 
-/**
- *
- * 音乐搜索器 - JS 文件
- *
- * @author  MaiCong <i@maicong.me>
- * @link    https://github.com/maicong/music
- * @since   1.5.9
- *
- */
 
 $(function() {
   // 获取参数
@@ -78,9 +69,9 @@ $(function() {
   // Tab 切换
   $('#j-nav').on('click', 'li', function() {
     var holder = {
-      name: '例如: 不要说话 陈奕迅',
-      id: '例如: 25906124',
-      url: '例如: http://music.163.com/#/song?id=25906124',
+      name: '例如: 轻描花季  路线：喜马拉雅',
+      id: '例如: 11269709  路线：喜马拉雅',
+      url: '例如: https://www.ximalaya.com/youshengshu/11269709/  路线：喜马拉雅',
       pattern_name: '^.+$',
       pattern_id: '^[\\w\\/\\|]+$',
       pattern_url: '^https?:\\/\\/\\S+$'
