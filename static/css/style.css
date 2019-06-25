@@ -8,11 +8,13 @@ html {
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  background-color: #0b0a10;
 }
 body {
   margin: 0;
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: subpixel-antialiased;
+
 }
 a {
   -webkit-transition: all .3s;
@@ -21,11 +23,12 @@ a {
 .about {
 	
   background-image:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1561400915269&di=e32fa352274536e115de5313d5055473&imgtype=0&src=http%3A%2F%2Fattachments.gfan.net.cn%2Fforum%2F201606%2F24%2F234312cjuzoas3l0zd9lsa.jpg);
-  -moz-background-size:100% 100%; background-size:100% 100%;
-  color: #7f8c8d;
+  background-size:100% 100%;
+  color: #cbce23;
+
 }
 .about-color {
-  color: #34495e;
+  color: #009688;
 }
 .about-title {
   font-size: 180%;
@@ -52,7 +55,7 @@ a {
 }
 .music-type .am-radio-inline,
 .music-type label {
-  color: #7f8c8d;
+  color: #89e60e;
 }
 .music-type .am-icon-unchecked,
 .music-type .am-icon-checked {
@@ -82,26 +85,26 @@ a {
   padding: 10px;
   text-align: center;
   font-size: 14px;
-  color: #666;
+  color: rgb(240, 12, 12);
   background: #eee;
   cursor: pointer;
 }
 .footer {
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   overflow: hidden;
 }
 .footer p {
-  color: #7f8c8d;
+  color: #05e2f3;
   margin: 0;
   padding: 15px;
   text-align: center;
   background: #2d3e50;
 }
 .footer p a {
-  color: #7f8c8d;
+  color: #f31bd8;
 }
 .footer p a:hover {
   color: #bbb;
@@ -114,22 +117,32 @@ a {
 }
 .am-popup-bd {
   height: 100%;
+  filter:alpha(Opacity=30);-moz-opacity:0.6;opacity: 0.6; 
 }
 .aplayer {
   padding: 10px !important;
   margin: 0 !important;
   border: 1px solid #ccc;
+  color: rgb(105, 91, 47) !important;
+  
 }
 .aplayer .aplayer-info .aplayer-music .aplayer-title,
 .aplayer .aplayer-info .aplayer-music .aplayer-author {
   font-size: 16px !important;
-  color: #555 !important;
+  color: rgb(6, 250, 230) !important;
 }
 
 .aplayer .aplayer-list ol li .aplayer-list-index {
   display: inline-block;
   width: 20px;
   text-align: right;
+  color: rgb(192, 9, 64) !important;
+}
+.aplayer .aplayer-list ol li .aplayer-list-author {
+  color: rgb(192, 9, 64) !important;
+}
+.aplayer .aplayer-info .aplayer-controller .aplayer-time {
+  color: rgb(192, 9, 64) !important;
 }
 .aplayer .aplayer-lrc p {
   color: #0e90d2 !important;
@@ -140,7 +153,7 @@ a {
   padding: 8px 10px;
   margin-top: 10px;
   text-align: center;
-  color: #888;
+  color: rgb(236, 12, 12);
   cursor: pointer;
   -webkit-transition: color .3s;
   transition: color .3s;
@@ -159,6 +172,7 @@ a {
 .aplayer.aplayer-withlrc .aplayer-info {
   margin-left: 120px !important;
   height: 120px !important;
+  color: rgb(192, 9, 64) !important;
 }
 .aplayer.aplayer-withlist .aplayer-info {
   display: -webkit-box;
@@ -172,12 +186,14 @@ a {
   -ms-flex-pack: justify;
   justify-content: space-between;
   border-bottom: 0 !important;
+  color: rgb(192, 9, 64) !important;
 }
 .aplayer.aplayer-withlist .aplayer-list {
   height: auto !important;
   padding-top: 20px;
   -webkit-transition: none;
   transition: none;
+  color: rgb(192, 9, 64) !important;
 }
 .aplayer.aplayer-withlist .aplayer-list-hide {
   padding: 0;
